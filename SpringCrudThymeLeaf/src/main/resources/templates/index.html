@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <title>Applicazione SpringTopBoot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: steelblue;
+        }
+        .container {
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .button-group {
+            margin: 20px 0;
+        }
+        .button-group a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: steelblue;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .button-group a:hover {
+            background-color: #003f88;
+        }
+    </style>
+</head>
+<body>
+    <h1>Benvenuto in SpringTopBoot</h1>
+    <div class="container">
+        <p>Scegli una delle seguenti opzioni:</p>
+        <div class="button-group">
+            <a href="/videogiochi">Gestione Videogiochi</a>
+            <a href="/users">Gestione Utenti</a>
+        </div>
+    </div>
+</body>
+</html>
